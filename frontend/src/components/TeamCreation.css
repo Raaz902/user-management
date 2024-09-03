@@ -1,0 +1,89 @@
+/* src/components/TeamCreation.css */
+.team-creation-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .user-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .user-card {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 200px;
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .user-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .user-avatar {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .user-info h3, .user-info h4 {
+    margin: 0 0 5px;
+    color: #333;
+  }
+  
+  .user-info p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .create-team-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .create-team-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .selected-users {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .selected-user-card {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 200px;
+  }
+  
+  .selected-user-card h4 {
+    margin: 0;
+    color: #333;
+  }
+  
+  .selected-user-card p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
